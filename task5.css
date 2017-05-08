@@ -1,0 +1,133 @@
+*{margin:0;padding:0}
+body{
+    background: #DEDEDE;
+}
+#top{
+    background: black;
+    height: 60px;
+
+}
+#top #log img{
+    float:left;
+    margin-left:50px;
+    margin-top:10px;
+}
+#top #menu ul li{
+    float:right;
+    display: inline;
+    color:#fff;
+    margin:20px 20px 0 0;
+}
+.content{
+    padding:30px 15px 20px 15px;
+    background: #fff;
+    margin-top:20px;
+    margin-left:15px;
+    border-bottom: 5px solid gray;
+    border-right: 3px solid gray;
+
+}
+p.suojin{
+    text-indent: 2em;
+}
+.content table{
+    width:100%;
+    line-height: 2;
+
+}
+#right .content #t1{
+ font-size: 12px;
+
+}
+#right .content{
+    padding:30px 15px 20px 15px;
+    background: #fff;
+    margin-top:20px;
+    margin-left:15px;
+    border-bottom: 5px solid gray;
+    font-size: 12px;
+
+}
+#right .content .left{
+    text-align: right;
+    margin-right:5px;
+    padding-right: 20px;
+
+}
+#right .content #btn{
+    width: 100%;
+    background: blue;
+    color:#fff;
+    height: 50px;
+    border-radius: 15px;
+
+}
+#bottom{
+    clear: both;
+    margin-top: 20px;
+    background: black;
+    color:#fff;
+    width:100%;
+
+    text-align: center;
+    height: 60px;
+    line-height:3.5;
+
+}
+#left1{
+    float:left;
+    width:57%;
+
+
+}
+#left1 .content table tr td,#left1 .content table tr th{
+    border-left:1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+ #left1 .pic{
+     padding:30px 15px 20px 15px;
+     background: #fff;
+     margin-top:20px;
+     margin-left:15px;
+     border-bottom: 5px solid gray;
+     border-right: 3px solid gray;
+
+ }
+#left1 .pic ul{
+     margin-left:10px;
+ }
+#left1 .pic  li{
+    list-style-type: none;
+    border:1px solid #ccc;
+    width:100px;
+    height: 100px;
+    margin-right: 10px;
+    float:left;
+    padding:10px;
+    margin-bottom:10px;
+
+}
+#left1 .pic li p{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#left1 .pic  li img{
+    width: 80px;
+    height: 80px;
+
+}
+#left1 .pic #clear{
+    clear:both;
+}
+#right{
+    float:right;
+    width:40%;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.middle{
+    overflow: auto;
+}

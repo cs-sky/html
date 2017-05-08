@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+}
+#out{
+     background: #eee;
+    padding:20px;
+    border:1px solid #999;
+    overflow:auto;
+}
+#out #left{
+    background: #fff;
+    margin-left:20px;
+
+    width:135px;
+    float:left;
+    padding:20px;
+    border:1px solid #999;
+
+
+}
+#out #left img{
+    border:1px solid blue;
+    float:left;
+}
+#out #left p{
+   margin-left:100px;
+}
+.article h2{
+    text-align: center;
+}
+.article .line{
+    text-align: center;
+    line-height: 2;
+}
+#out #mid{
+
+    background: #fff;
+
+    border:1px solid #999;
+   margin-left:220px;
+    margin-right:200px;
+}
+#out #right{
+    background: #fff;
+    margin-right: 20px;
+
+    width:100px;
+    float:right;
+    padding:20px;
+    border:1px solid #999;
+}
+#out #right img{
+    border:1px solid blue;
+    display:block;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.container-position{
+    background: #eee;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-top: 50px;
+    position: relative;
+    min-height: 402px;
+}
+
+
+/***left**/
+
+.container-position .left{
+    background: #fff;
+    border: 1px solid #999;
+    padding: 20px;
+    width: 160px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.container-position .left img{
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+.container-position .left .team-logo{
+    float: left;
+}
+
+.container-position .left .team-name{
+    margin-left: 100px;
+    text-align: center;
+}
+
+
+/*middle*/
+
+.container-position .mid{
+    background: #fff;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-left: 240px;
+    margin-right: 140px;
+}
+.container-position .mid .article{
+    margin-bottom: 40px;
+}
+.container-position .mid .bottom-article{
+    margin-bottom: 0;
+}
+.container-position .mid h2{
+    margin-bottom: 20px;
+}
+.container-position .mid .line{
+    line-height: 28px;
+
+}
+
+
+/****right***/
+
+.container-position .right{
+    background: #fff;
+    border: 1px solid #999;
+    padding: 20px;
+    width: 80px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.container-position .right img{
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+.container-position .personal-logo{
+    margin-bottom: 14px;
+}
+.container-position .bottom-logo{
+    margin-bottom: 0;
+}
